@@ -1,0 +1,11 @@
+
+.popup_box {display:none; background-color:rgba(0,0,0,0.8); z-index: 99999999; position: absolute; top:0;}
+.popup .close {position:absolute;top:10px;right:10px;}
+
+.small_screen .popup_box {background:#1a1a1a;}
+.small_screen .popup {color:#fff;padding:40px 20px 20px;}
+
+.big_screen .popup_box {position:fixed;top:0;right:0;left:0;max-width:100%;}
+.big_screen .popup {position:absolute; background:#fff;border:1px solid #333;padding:40px;min-width:750px; top:40px;}
+
+#page_box {padding:40px;}

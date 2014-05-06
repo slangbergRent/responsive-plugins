@@ -1,0 +1,122 @@
+*{ margin: 0; padding: 0; border: 0; }
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+#slideholder{
+  position: relative;
+  width: 80%;
+  margin: 10px auto;
+  background: #1a1a1a;
+border-color: #000;
+box-shadow: 2px 2px 112px #FAFAFA;
+}
+
+#clearfix{clear:both; display: block;}
+
+#slidenav{position: relative; left: 0;}
+
+.slider-nav:after{clear:both;display: block; content:"";}
+
+#navcontainer{padding: 10px; position: relative;}
+
+#navholder{margin: 0 auto; position: relative; border: 1px solid red; overflow: hidden;}
+
+.thumb_nav{background: #FFF; text-decoration: none; color: #000; top: 50%; position:absolute; height: 30px; width: 40px; display: block; opacity: .5; border: 1px solid #000; text-align: center; margin-top: -15px;}
+
+.thumb_next{left:100%; margin-left: -42px;}
+
+.thumb_prev{left:0;}
+
+
+.icon_close {
+width: 15px;
+height: 15px;
+display: block;
+border: none;
+cursor: pointer;
+opacity: 0.80;
+filter: alpha(opacity=80);
+background-position: -281px -123px;
+}
+
+.sprite {
+background-image: url("sprite-faceoff.png");
+background-repeat: no-repeat;
+}
+/*////////////////// slide core css //////////////////////*/
+.slider {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.slides {
+  height: 100%;
+  /* Clear fix */
+  overflow: hidden;
+  *zoom: 1;
+  /**
+   * Prevent blinking issue
+   * Not tested. Experimental.
+   */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+}
+
+.slide {
+  height: 100%;
+  float: left;
+  clear: none;
+  text-align: center;
+}
+.slide img{
+  max-height: 100%;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+}
+
+.slider-arrow {
+  position: absolute;
+  display: block;
+  margin-bottom: -20px;
+  padding: 20px;
+}
+
+.slider-arrow--right {
+  bottom: 50%;
+  right: 30px;
+}
+
+.slider-arrow--left {
+  bottom: 50%;
+  left: 30px;
+}
+
+.slider-nav {
+ /* position: absolute;
+  bottom:35px;*/
+}
+
+.slider-nav__item {
+  float: left;
+  clear: none;
+  display: block;
+  margin: 0 5px;
+  border: 1px solid #000;
+  width: 100px;
+}
+
+.slider-nav__item:hover {
+  background: #666;
+}
+
+.slider-nav__item--current {
+  border: 1px solid red;
+}
+/*////////////////// slide core css //////////////////////*/
