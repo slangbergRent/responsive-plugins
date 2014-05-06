@@ -48,8 +48,7 @@ this plugins depdencies are:
 <script src="js/slidersetup.js"></script>
 ```
 
-### Responsive Slideshow Options
-[See the plugins documetion here](https://github.com/jedrzejchalubek/Glide.js/blob/master/README.md):
+### Responsive Slideshow Options [See the plugins documetion here](https://github.com/jedrzejchalubek/Glide.js/blob/master/README.md):
 | Option | Default | Type | Description
 |--------|---------|------|------------
 | `autoplay` | `4000` | int/bool | False for turning off autoplay
