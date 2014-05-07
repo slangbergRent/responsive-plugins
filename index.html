@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="css/r_slider.css">
   <script type="text/javascript">
   $(document).ready(function() {
-    slidersetup();
     $('.r_carousel').loopScroll();
-    $('.r_carousel_cell').popPop();
+    $('.r_carousel_cell').popPop( { afterOpen:function(){slidersetup();} });
+
   });
 
   </script>
