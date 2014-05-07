@@ -8,3 +8,4 @@
 .big_screen .popup_box {position:fixed;top:0;right:0;left:0;max-width:100%;}
 .big_screen .popup {position:absolute; background:#fff;border:1px solid #333;padding:40px;min-width:750px; top:40px;}
 
+#page_box {padding:40px;}
